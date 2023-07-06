@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+    text-transform: capitalize;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+input{
+    padding:0.5rem;
+    width:250px;
+    border-radius: 50px;
+}
+.searchBtn{
+    outline: none;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    cursor:pointer;
+}
+i{
+    padding: 0.5rem;
+}
+img{
+    height:50px;
+    width:50px;
+    object-fit: cover;
+}
+.weather_condition{
+    height:100px;
+    width:100px;
+    object-fit: cover;
+}
+.weather_container{
+    width:600px;
+    text-align: center;
+    border:1px soild green;
+    background:cyan;  
+    border-radius: 5px;  
+}
+.search,
+.degrees,
+.weather_content{
+    margin-top: 2rem;
+}
+.weather_state{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    margin-left:5rem;
+    margin-right: 5rem;
+}
+.degree_state,
+.weather_details{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap:10px;
+}
